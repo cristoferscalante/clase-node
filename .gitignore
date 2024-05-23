@@ -1,0 +1,12 @@
+# Ignorar directorios de dependencias
+node_modules/
+vendor/
+
+# Ignorar archivos de configuración temporal o local
+.env
+config/settings.local.json
+
+# Ignorar archivos de compilación y logs
+dist/
+*.log
+*.tmp
